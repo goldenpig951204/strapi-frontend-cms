@@ -1,0 +1,78 @@
+.signup-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.signup-container .page-content {
+    display: flex;
+}
+.signup-container .page-content .page-left-content,
+.signup-container .page-content .page-right-content {
+    flex: 1;
+    padding-top: 159px;
+    padding-bottom: 50px;
+    min-height: calc(100vh - 252px);
+}
+.signup-container .page-content .page-left-content {
+    background-color: #F4F7FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-container .page-content .page-left-content img {
+    max-width: 383px;
+    width: 100%;
+    height: auto;
+}
+.signup-container .page-content .page-right-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup-container .page-content .page-right-content .page-title {
+    font-family: MontserratBold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #005492;
+}
+.signup-container .page-content .signup-form {
+    max-width: 500px;
+    width: 100%;
+    padding: 15px;
+}
+.signup-container .form-control {
+    padding: .75rem 1.0rem;
+    background-color: #F5F6F8;
+}
+.signup-container .btn {
+    padding: .75rem;
+    background: linear-gradient(90deg, #0191e6 0%, #014973 100%);
+}
+.signup-container .btn:hover {
+    background: linear-gradient(90deg, #014973 0%, #0191e6 100%);
+}
+.signup-container .btn:active {
+    background: linear-gradient(90deg, #032e47 0%, #0a4f77 100%) !important;
+}
+@media (max-width: 992px) {
+    .signup-container .page-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .signup-container .page-content .page-left-content,
+    .signup-container .page-content .page-right-content {
+        min-height: auto;
+    }
+    .signup-container .page-content .page-left-content {
+        padding-top: 120px;
+    }
+    .signup-container .page-content .page-right-content {
+        padding-top: 50px;
+    }
+}
+@media (max-width: 576px) {
+    .signup-container .page-content .page-right-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}

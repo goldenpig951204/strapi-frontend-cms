@@ -1,0 +1,20 @@
+import { Container } from "react-bootstrap";
+import "./WhyAnswerSheet.css"
+const WhyAnswerSheet = () => {
+    return (
+        <div className="page-container why-answersheet-container">
+            <Container>
+                <h1 className="page-title text-center">Why AnswerSheet?</h1>
+                <div className="description d-block">
+                    <img style={{float: "right"}} src={require("../assets/images/why-answersheet.png")} alt="WhyAnswersheet"/>
+                    <p>Suscipit adipiscing bibendum est ultricies integer quis auctor. Ornare lectus sit amet est. Vulputate dignissim suspendisse in est ante. Parturient montes nascetur ridiculus mus mauris vitae ultricies. Dictum fusce ut placerat orci nulla. Lacinia quis vel eros donec ac odio tempor. Consequat id porta nibh venenatis. Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Mattis pellentesque id nibh tortor id. Cras semper auctor neque vitae tempus. Nec feugiat nisl pretium fusce id velit. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Etiam sit amet nisl purus. Lectus nulla at volutpat diam ut venenatis. Viverra justo nec ultrices dui sapien eget mi proin.</p>
+                    <p>Lobortis feugiat vivamus at augue eget arcu dictum varius duis. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Odio eu feugiat pretium nibh ipsum consequat nisl vel pretium. At imperdiet dui accumsan sit amet nulla facilisi. Nisl condimentum id venenatis a condimentum. Morbi tristique senectus et netus et. Diam donec adipiscing tristique risus nec feugiat in fermentum. Praesent elementum facilisis leo vel. Pellentesque elit eget gravida cum sociis natoque. Vitae tempus quam pellentesque nec nam. Dictum sit amet justo donec enim diam.</p>
+                    <p>Viverra maecenas accumsan lacus vel. Sit amet nisl suscipit adipiscing bibendum. Mauris rhoncus aenean vel elit scelerisque mauris. Ullamcorper eget nulla facilisi etiam. Quisque id diam vel quam elementum pulvinar etiam. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Id nibh tortor id aliquet lectus proin nibh. Ultrices gravida dictum fusce ut. Amet facilisis magna etiam tempor. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Placerat orci nulla pellentesque dignissim enim sit amet venenatis. Dui accumsan sit amet nulla facilisi morbi tempus. Quam pellentesque nec nam aliquam sem et tortor. Imperdiet dui accumsan sit amet. Luctus accumsan tortor posuere ac. In fermentum posuere urna nec tincidunt praesent semper feugiat. Urna duis convallis convallis tellus id. Lobortis mattis aliquam faucibus purus in massa tempor nec feugiat. Tempor orci eu lobortis elementum nibh tellus molestie</p>
+                    <p>Viverra maecenas accumsan lacus vel. Sit amet nisl suscipit adipiscing bibendum. Mauris rhoncus aenean vel elit scelerisque mauris. Ullamcorper eget nulla facilisi etiam. Quisque id diam vel quam elementum pulvinar etiam. Cursus mattis molestie a iaculis at erat pellentesque adipiscing. Id nibh tortor id aliquet lectus proin nibh. Ultrices gravida dictum fusce ut. Amet facilisis magna etiam tempor. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Placerat orci nulla pellentesque dignissim enim sit amet venenatis. Dui accumsan sit amet nulla facilisi morbi tempus. Quam pellentesque nec nam aliquam sem et tortor. Imperdiet dui accumsan sit amet. Luctus accumsan tortor posuere ac. In fermentum posuere urna nec tincidunt praesent semper feugiat. Urna duis convallis convallis tellus id. Lobortis mattis aliquam faucibus purus in massa tempor nec feugiat. Tempor orci eu lobortis elementum nibh tellus molestie</p>
+                </div>
+            </Container>
+        </div>
+    )
+}
+
+export default WhyAnswerSheet;

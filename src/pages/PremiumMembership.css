@@ -1,0 +1,80 @@
+.premium-membership-container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.premium-membership-container .page-content {
+    display: flex;
+    align-items: top;    
+}
+.premium-membership-container .page-content .page-left-content, 
+.premium-membership-container .page-content .page-right-content {
+    padding-top: 159px;
+    padding-bottom: 50px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 252px);
+}
+.premium-membership-container .page-content .page-left-content {
+    background-color: #F4F7FA;
+}
+.premium-membership-container .page-content img {
+    margin: 20px;
+    max-width: 504px;
+    width: 100%;
+    height: auto;
+}
+.premium-membership-container .page-content .page-right-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.premium-membership-container .membership-form {
+    max-width: 500px;
+    width: 100%;
+    padding: 15px;
+}
+.premium-membership-container .page-title {
+    font-family: MontserratBold;
+    font-weight: 700;   
+    font-size: 24px;
+    line-height: 29px;
+    color: #005492;
+}
+.premium-membership-container .form-control {
+    padding: .75rem 1.0rem;
+    background-color: #F5F6F8;
+}
+.premium-membership-container .btn {
+    padding: .75rem;
+    background: linear-gradient(90deg, #0191e6 0%, #014973 100%);
+}
+.premium-membership-container .btn:hover {
+    background: linear-gradient(90deg, #014973 0%, #0191e6 100%);
+}
+.premium-membership-container .btn:active {
+    background: linear-gradient(90deg, #032e47 0%, #0a4f77 100%) !important;
+}
+@media (max-width: 992px) {
+    .premium-membership-container .page-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .premium-membership-container .page-content .page-left-content,
+    .premium-membership-container .page-content .page-right-content {
+        min-height: auto;
+    }
+    .premium-membership-container .page-content .page-left-content {
+        padding-top: 120px;
+    }
+    .premium-membership-container .page-content .page-right-content {
+        padding-top: 50px;
+    }
+}
+@media (max-width: 576px) {
+    .premium-membership-container .page-content .page-right-content {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+} 

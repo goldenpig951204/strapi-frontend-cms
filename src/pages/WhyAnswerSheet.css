@@ -1,0 +1,30 @@
+.why-answersheet-container {
+    padding-top: 159px;
+    padding-bottom: 50px;
+}
+.why-answersheet-container .page-title {
+    font-family: MontserratBold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #005492;
+    margin-bottom: 16px;
+}
+.why-answersheet-container .description {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #505050;
+    text-align: justify;
+}
+.why-answersheet-container .description img {
+    max-width: 613px;
+    width: 100%;
+    height: auto;
+    margin: 15px 50px 30px 50px;
+}
+@media (max-width: 768px) {
+    .why-answersheet-container .description img {
+        margin: 10px auto 20px; 
+    }
+}

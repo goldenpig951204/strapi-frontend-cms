@@ -1,0 +1,32 @@
+.about-us-container {
+    padding-top: 159px;
+    padding-bottom: 50px;
+}
+.about-us-container .page-title {
+    font-family: MontserratBold;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #005492;
+}
+.about-us-container .about-content {
+    flex: 3;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #505050;
+}
+.about-us-container .about-logo {
+    flex: 2
+}
+.about-us-container .about-logo img {
+    max-width: 341px;
+    width: 100%;
+    height: auto;
+    margin: 20px;
+}
+@media (max-width: 992px) {
+    .about-us-container .about-us-content {
+        flex-direction: column-reverse;
+    }
+}

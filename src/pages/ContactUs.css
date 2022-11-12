@@ -1,0 +1,102 @@
+.contact-us-container {
+    padding-top: 159px;
+    padding-bottom: 50px;
+}
+.contact-us-container .card {
+    background-color: #F4F7FA !important;
+}
+.contact-us-container .page-title {
+    display: inline-block;
+    font-family: MontserratBold;
+    font-size: 50px;
+    line-height: 60.95px;
+    font-weight: 700;
+    padding: 30px 12px 12px 40px;
+    color: #000000;
+    border-bottom: 1px solid #dddddd;
+}
+.contact-us-container .card .card-body {
+    padding: 55px 40px 20px 40px;
+}
+.contact-us-container .sub-title {
+    font-size: 16px;
+    font-family: MontserratBold;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000000;
+}
+.contact-us-container .card .nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8c959f;
+}
+.contact-us-container .contact-list {
+    margin-bottom: 45px;
+}
+.contact-us-container .form-control {
+    padding: .75rem 1.0rem;
+    background-color: #F5F6F8;
+}
+.contact-us-container .terms-and-conditions {
+    font-weight: 400;
+    color: #8B9194;
+}
+.contact-us-container .btn {
+    padding: .75rem;
+    background: linear-gradient(90deg, #0191e6 0%, #014973 100%);
+}
+.contact-us-container .btn:hover {
+    background: linear-gradient(90deg, #014973 0%, #0191e6 100%);
+}
+.contact-us-container .btn:active {
+    background: linear-gradient(90deg, #032e47 0%, #0a4f77 100%) !important;
+}
+.col-lg-5, .col-lg-7 {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+.contact-us-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.contact-us-form > div {
+    width: 100%;
+}
+@media (max-width: 1250px) {
+    .contact-us-container .page-title {
+        padding: 30px 30px 10px 30px;
+        font-size: 40px;
+    }
+    .contact-us-container .card-body {
+        padding: 30px 30px 0px 30px !important;
+    }
+    .contact-us-container .contact-list {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width: 992px) {
+    .contact-us-container .col-lg-5, 
+    .contact-us-container .col-lg-7 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .contact-us-container .card {
+        margin-bottom: 16px;
+    }
+    .contact-us-form > div {
+        width: auto;
+    }
+}
+@media (max-width: 576px) {
+    .contact-us-container {
+        padding-top: 124px;
+        padding-bottom: 15px;
+    }
+    .contact-us-container .page-title { 
+        padding-top: 15px;
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,29 @@
+.navbar {
+    padding-top: 30px !important;
+    padding-bottom: 10px !important;
+    position: fixed !important;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+}
+.navbar-nav .nav-link {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 14px;
+    font-weight: 400;
+    color: #343637;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+.navbar-nav .nav-link.active {
+    color: #005492 !important;
+    font-weight: bold;
+    text-decoration: underline;
+}
+@media (max-width: 1200px) {
+    .navbar-nav .nav-link  {
+        padding-right: 12px !important;
+        padding-left: 12px !important;
+    }
+}

@@ -1,0 +1,16 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url(assets/fonts/static/Montserrat-Bold.ttf);
+}
+@font-face {
+  font-family: MontserratNormal;
+  src: url(assets/fonts/Montserrat-VariableFont_wght.ttf);
+}
+* {
+  font-family: MontserratNormal;
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: calc(100% - 100px) !important;
+  }
+}
